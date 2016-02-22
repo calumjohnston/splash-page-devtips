@@ -1,0 +1,90 @@
+html,body,h1,h2{
+	padding:0;
+	margin:0;
+}
+
+header{
+
+	height:100vh;
+	padding:0;
+	margin:0;
+	margin-bottom: 50px;
+	background: url("../img/bg.jpg");
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+}
+
+header h1, header h3{
+	cursor:default;
+	color:#222;
+	text-transform: uppercase;
+	letter-spacing:2pt;
+
+}
+header h1{
+	font-size:4em;
+	font-family: 'Permanent Marker', cursive;
+}
+header h3{
+	font-family: 'Permanent Marker', cursive;
+	opacity:0.9;
+	font-size:1em;
+	margin:0;
+	letter-spacing:5pt;
+}
+.container{
+	width:100%
+}
+.article{
+	max-width:600px;
+	margin:0 auto;
+}
+.article-container{
+	width:100%;
+	padding-bottom:50px;
+}
+.darker{
+	background-color:#f2f2f2;
+}
+.article h3, .article-text{
+	color:#222;
+	font-family: 'Open Sans', sans-serif;
+}
+.article h3{
+	font-family: 'Permanent Marker', cursive;
+	text-align:center;
+	font-size:2em;
+	padding-top:32px;
+}
+.article-text{
+	font-size:14pt;
+}
+footer{
+	bottom:0;
+	width:100vw;
+	background-color:#222;
+	text-align:center;
+	color:white;
+	font-family:'Open Sans',sans-serif;
+	padding:30px;
+	font-size:small;
+}
+
+@media screen and (max-width:720px){
+	header h1{
+		font-size:3em;
+	}
+
+}
+@media screen and (max-width:510px){
+	header h1{
+		font-size:2.3em;
+	}
+	header h3{
+		font-size:0.7em;
+	}
+}
